@@ -20,6 +20,11 @@ is fine either way, but a normal `git push` is simpler.
 
 ## 2. Get the commit hash
 
+This folder already has a git repo with `.gitattributes` setting `* -text`. **Keep that file.** On
+Windows, `core.autocrlf=true` rewrites LF as CRLF on commit, which changes every sha256 and makes
+CI fail with "file does not match its pin" — it happened to this repo on the first commit. The
+attribute stops it, for you and for anyone who clones.
+
 ```sh
 git rev-parse HEAD
 ```
