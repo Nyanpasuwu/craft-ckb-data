@@ -1,0 +1,10 @@
+# Words the corpus dictionary must accept: our own supplement (MIT), like en-extra.txt in
+# craft-i18n. One word per line, `#` comments. These survive every rebuild -- the .dic itself
+# is regenerated and must never be edited by hand.
+#
+# Modern loanwords a 2026 Sorani Wikipedia dump doesn't contain yet.
+سۆشیالمیدیا
+سمارتفۆن
+هارددیسک
+هاشتاگ
+ئەپستۆر

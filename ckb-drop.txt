@@ -1,0 +1,4 @@
+# Words the corpus dictionary must NOT contain. One word per line, `#` comments.
+# For junk that survives the frequency filter: quotation fragments, foreign-script residue,
+# a token the tokenizer glued together wrongly. Applied after counting, so a rebuild keeps it out.
+وكيلٞ

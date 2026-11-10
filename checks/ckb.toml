@@ -1,0 +1,3 @@
+# Words the pack must accept and reject (generated from the corpus).
+correct = ["لە", "پۆل", "بە", "کە", "بۆ", "ناوی", "ساڵی", "جۆری"]
+incorrect = ["پۆلللل", "ناویییی", "ساڵیییی", "جۆریییی"]

@@ -1,0 +1,43 @@
+# Paste these three entries into craft-i18n's `language-data/manifest.toml`
+# (keep the file's locale grouping: put them under a `# ckb` comment, in alphabetical order).
+#
+# Replace every `<SHA>` with the 40-character commit hash you pushed, in all three `url`
+# lines and all three `commit` lines. They must be identical strings: the checker requires
+# that `url`'s third path segment equals `commit` (crates/craft-i18n-tests/src/packs.rs,
+# `check_pinned_url`).
+#
+# Replace `<you>` with your GitHub user or organisation. The repository must be public.
+#
+# Do not change the sha256 or size values: CI downloads each URL and fails if they differ.
+
+# ckb
+[[file]]
+locale = "ckb"
+kind = "spelling-aff"
+url = "https://raw.githubusercontent.com/<you>/craft-ckb-data/<SHA>/ckb.aff"
+commit = "<SHA>"
+sha256 = "a6209e60eb3766ac5930efb43bbb33e7f15866bf4aac47b3016c77ba622d5cc3"
+size = 80
+licence = "CC-BY-SA-4.0"
+class = "Download-only"
+name = "کوردی"
+
+[[file]]
+locale = "ckb"
+kind = "spelling-dic"
+url = "https://raw.githubusercontent.com/<you>/craft-ckb-data/<SHA>/ckb.dic"
+commit = "<SHA>"
+sha256 = "b1249f1d5133283b3527213afe00261ca02f74d515cc279e4d5337c49c087bef"
+size = 2717133
+licence = "CC-BY-SA-4.0"
+class = "Download-only"
+
+[[file]]
+locale = "ckb"
+kind = "licence"
+url = "https://raw.githubusercontent.com/<you>/craft-ckb-data/<SHA>/LICENCE.txt"
+commit = "<SHA>"
+sha256 = "d393f85cc200ba8a4746011bae7233766378418145be04af4360c4e7415081b1"
+size = 1190
+licence = "CC-BY-SA-4.0"
+class = "Download-only"

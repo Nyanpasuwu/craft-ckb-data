@@ -1,0 +1,24 @@
+ckb.dic and ckb.aff — Sorani Kurdish spelling word list
+
+Copyright: the word forms are extracted from the Sorani Wikipedia (ckbwiki), whose text is
+published by Wikipedia contributors under the Creative Commons Attribution-ShareAlike 4.0
+International licence.
+
+  Source:  https://dumps.wikimedia.org/ckbwiki/20261101/
+  Authors: Wikipedia contributors
+  Licence: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+
+This word list is a derivative of that text and is distributed under the same licence,
+CC BY-SA 4.0. You may share and adapt it, including commercially, provided you:
+
+  - give appropriate credit (Wikipedia contributors, Sorani Wikipedia, with the dump date),
+  - link to the licence,
+  - indicate what was changed (the text was reduced to a list of word forms, normalised and
+    filtered; some words added or removed by hand), and
+  - distribute any adaptation under CC BY-SA 4.0 or a compatible licence.
+
+The full licence text is at https://creativecommons.org/licenses/by-sa/4.0/legalcode
+It is also carried by the WordCraft Language pack built from these files, as
+LICENCES/CC-BY-SA-4.0.txt.
+
+The files are provided as-is, without warranty of any kind.
